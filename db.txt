@@ -1,0 +1,7 @@
+create table ngp_users (
+	user_id int AUTO_INCREMENT,
+	user_name varchar(255),
+	user_email varchar(255),
+	user_password varchar(255),
+	primary key (user_id)
+);
