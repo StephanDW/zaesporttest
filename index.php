@@ -2,8 +2,6 @@
     session_start();
     include_once 'includes/functions.php';
     include_once 'includes/config.php';
-
-    define('BASE URL', 'http://zaesporttest/');
 ?>
 
 <html lang="en">
