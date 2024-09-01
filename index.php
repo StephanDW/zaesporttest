@@ -8,7 +8,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script language="JavaScript" type="text/javascript" src="includes/jquery.js?<?=filemtime("includes/jquery.js")?>">></script>
+    <script language="JavaScript" type="text/javascript" src="includes/jquery.js?<?=filemtime("includes/jquery.js")?>"></script>
     <script type="text/javascript" src="includes/functions.js?<?=filemtime("includes/functions.js")?>"></script>
     <link rel="stylesheet" href="includes/foundation/css/foundation.min.css" />
     <link rel="stylesheet" href="includes/foundation/css/app.css" />
