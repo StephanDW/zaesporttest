@@ -1,6 +1,6 @@
 <?php
 function Get2DAssoc($sql){
-    $conn = new mysqli("localhost", "root", "", "toho");
+    $conn = new mysqli("http://51.20.94.34/", "root", "", "toho");
     if ($conn->connect_error) {
         die("Connection failed: ".$conn->connect_error);
     }
