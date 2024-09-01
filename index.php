@@ -3,7 +3,7 @@
     include_once 'includes/functions.php';
     include_once 'includes/config.php';
 
-    define('BASE URL', 'http://http://51.20.94.34/zaesporttest/');
+    define('BASE URL', 'http://http://51.20.94.34/');
 ?>
 
 <html lang="en">
