@@ -1,3 +1,5 @@
+# DB NAME toho
+
 CREATE TABLE users (
     user_id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
     user_name varchar(255) NOT NULL,
