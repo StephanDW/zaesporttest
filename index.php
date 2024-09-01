@@ -2,13 +2,16 @@
     session_start();
     include_once 'includes/functions.php';
     include_once 'includes/config.php';
+
+    define('BASE URL', 'http://http://51.20.94.34/zaesporttest/');
 ?>
 
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script language="JavaScript" type="text/javascript" src="includes/jquery.js?<?=filemtime("includes/jquery.js")?>">></script>
+    <base href="/zaesporttest/">
+    <script language="JavaScript" type="text/javascript" src="includes/jquery.js?<?=filemtime("includes/jquery.js")?>"></script>
     <script type="text/javascript" src="includes/functions.js?<?=filemtime("includes/functions.js")?>"></script>
     <link rel="stylesheet" href="includes/foundation/css/foundation.min.css" />
     <link rel="stylesheet" href="includes/foundation/css/app.css" />
