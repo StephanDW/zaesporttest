@@ -19,6 +19,7 @@
 </head>
 <body>
    <?php
+    echo __DIR__;
     if ($_SESSION['user'] == null) {
         include_once 'pages/login.php';
     } else {
