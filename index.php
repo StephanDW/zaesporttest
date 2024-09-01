@@ -18,7 +18,7 @@
 </head>
 <body>
    <?php
-    if ($_SESSION['user'] == null) {
+    if (!isset($_SESSION['user'])) {
         include_once 'pages/login.php';
     } else {
         include_once 'includes/nav.php';

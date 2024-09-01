@@ -9,3 +9,6 @@ CREATE TABLE users (
 
 INSERT INTO users (user_name, user_password, user_email)
 VALUES ('Stephan', 'sdw', 'user_email');
+
+INSERT INTO users (user_name, user_password, user_email)
+VALUES ('Nico', 'no', 'user_email');
