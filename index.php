@@ -22,7 +22,7 @@
         include_once 'pages/login.php';
     } else {
         include_once 'includes/nav.php';
-        if (isset($menu[$_GET['page']])) {
+        if (isset($_GET['page']) && isset($menu[$_GET['page']])) {
             include_once($menu[$_GET['page']]);
         }
     }
