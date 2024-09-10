@@ -84,34 +84,116 @@ body {
 /* profile start */
 .profile_page{
     width: 100%;
+    height: 100vh;
 }
 
 .prof_main_cont{
-    background-color: #000000;
-    margin: 1%;
-    height: 48%;
-    border-radius: 60px;
-}
-
-.prof_sec_cont{
     height: 50vh;
+    padding: 1rem;
+}
+
+.prof_main_bg{
+    height: 100%;
     border-radius: 60px;
+}
+
+.prof_box{
+    border-radius: 15px;
+    height: 200px;
     display: flex;
+    align-items: center;
+    background-color: #000000;
 }
 
-.prof_sec_pri{
-    background-color: #000000;
-    margin: 1%;
-    height: 95%;
-    width: 50%;
-    border-radius: 60px;
+.prof_img{
+    border-radius: 150px;
+    height: 150px;
+    width: 150px;
+    margin-left: 15px;
+    margin-right: 10px;
 }
 
-.prof_sec_sec{
+.prof_name{
+    font-size: 21px;
+}
+
+.prof_sub_det{
+    display: flex;
+    flex-direction: column;
+}
+
+.rank_text{
+    color: gold;
+}
+
+.prof_team{
     background-color: #000000;
-    margin: 1%;
-    height: 95%;
-    width: 50%;
-    border-radius: 60px;
+    min-height: 500px;
+    margin-top: 1rem;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.team_member_box{
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* profile end */
+
+/* popup start */
+#popup {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with opacity */
+}
+
+/* Popup content */
+.popup-content {
+  background-color: #fff;
+  margin: 15% auto; /* Center vertically and horizontally */
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%; /* Set the width of the popup */
+  position: relative;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  color: #f00;
+}
+/* popup end */
+
+/* Standards */
+.gen_head1{
+    font-size: 25px;
+}
+
+.gen_btn{
+    height: 30px;
+    background-color: gray;
+    border-radius: 15px;
+    border: none;
+}
+
+.flex{display:flex;}
+.justify-center{justify-content:center;}
+.items-center{align-items:center;}
+.items-bottom{align-items:bottom;}

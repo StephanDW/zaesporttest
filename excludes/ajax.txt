@@ -1,0 +1,11 @@
+$.ajax({
+      url: "index.php?page=ca",
+      type: "POST",
+      dataType: "json",
+      data: {
+        function : "create_team"
+      },
+      success: function(result){
+        document.getElementById('main_cont').innerHTML = response;
+      }
+    });
