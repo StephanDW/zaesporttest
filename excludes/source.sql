@@ -10,12 +10,6 @@ CREATE TABLE users (
     team_captain_yn tinyint(1) DEFAULT 0
 );
 
-INSERT INTO users (user_name, user_password, user_email)
-VALUES ('Stephan', 'sdw', 'user_email');
-
-INSERT INTO users (user_name, user_password, user_email)
-VALUES ('Nico', 'no', 'user_email');
-
 CREATE TABLE teams (
     team_id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
     team_name varchar(255) DEFAULT '',

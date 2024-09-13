@@ -193,7 +193,21 @@ body {
     border: none;
 }
 
+.modal{
+    width: 300px;
+    height: 150px;
+    border-radius:15px;
+    background-color: gray;
+}
+.modal::backdrop{
+    width: vw;
+    height: vh;
+    background-color: #000;
+    opacity: 0.95;
+}
+
 .flex{display:flex;}
 .justify-center{justify-content:center;}
+.space-between{justify-content:space-between;}
 .items-center{align-items:center;}
 .items-bottom{align-items:bottom;}

@@ -38,3 +38,12 @@ function GetSingleValue($sql){
     $conn->close();
     return($row);
 }
+
+function dbExec($sql){
+    $conn = new mysqli("localhost", "root", "", "toho");
+    if ($conn->connect_error) {
+        die("Connection failed: ".$conn->connect_error);
+    }
+    $conn->query($sql);
+    $conn->close();
+}
